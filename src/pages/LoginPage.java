@@ -45,7 +45,7 @@ public class LoginPage {
 		
 		String browser=pr.getProperty("browser");
 		
-		if(browser.equals("Firefox"))
+		if(browser.equals("Chrome"))
 		{
 		System.setProperty("webdriver.gecko.driver", "/Users/rajvi/Desktop/SeleniumJars/geckodriver");
 		 driver = new FirefoxDriver();
